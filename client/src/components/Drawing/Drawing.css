@@ -1,0 +1,38 @@
+.canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5%;
+  
+  background-color: #fffbf0;
+  background-image: url('draft.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.canvas-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.tool {
+  margin-top: 1rem;
+}
+
+.tool label {
+  color: aliceblue;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+
+.tool input[type='color'] {
+  width: 50px;
+  height: 35px;
+}
+
+button.dowload_btn {
+  margin-left: 1rem;
+}

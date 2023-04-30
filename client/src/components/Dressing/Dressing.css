@@ -1,0 +1,73 @@
+.figbody {
+    position: relative;
+}
+
+.text-center {
+    margin-bottom: 50px;
+}
+
+.figure-body,
+.figure-head
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.figure-body img,
+.figure-head img 
+{
+    width: 50%;
+}
+
+.fighead {
+    position: absolute;
+    top: 20px;
+}
+
+.figureDis {
+    border-radius: 25px;
+    height: 100%;
+}
+
+.figure-head,
+.figure-body,
+.figure-shirt {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.button {
+    font-size: 20px;
+    color: #534741;
+    word-spacing: 10%;
+
+    position: relative;
+    background-color: #C69C6D;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+  
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
